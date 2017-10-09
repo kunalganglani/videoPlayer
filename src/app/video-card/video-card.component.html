@@ -1,6 +1,7 @@
 <div class="cardStyle">
-  <h4 class="cardHeadingStyle">{{cardItem.cardTitle}}</h4>
+  <h6 class="cardHeadingStyle">{{cardItem.cardTitle}}</h6>
   <img src="{{cardItem.cardImage}}"/>
   <app-rating [rating]='cardItem.cardRating' [itemId]='cardItem.id' (click)='ratingComponetClick($event)'></app-rating>
+  <br/>
   <p class="cardDescStyle">{{cardItem.cardDescription}}</p>
 </div>

@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { VideoCardComponent } from './video-card/video-card.component';
 import { RatingComponent } from './rating/rating.component';
 import { HeaderCompComponent } from './header-comp/header-comp.component';
+import { VideoCardListComponent } from './video-card-list/video-card-list.component';
 
 const lookupLists = {
   mediums: ['Movies', 'Series']
@@ -18,6 +19,7 @@ const lookupLists = {
     VideoCardComponent,
     RatingComponent,
     HeaderCompComponent,
+    VideoCardListComponent,
   ],
   imports: [
     BrowserModule,
