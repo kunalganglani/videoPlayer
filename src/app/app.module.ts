@@ -9,6 +9,8 @@ import { RatingComponent } from './rating/rating.component';
 import { HeaderCompComponent } from './header-comp/header-comp.component';
 import { VideoCardListComponent } from './video-card-list/video-card-list.component';
 import { CardItemService } from 'app/card-item.service';
+import { HomeComponent } from './home/home.component';
+import appRoutes from './app.routes';
 
 @NgModule({
   declarations: [
@@ -17,11 +19,13 @@ import { CardItemService } from 'app/card-item.service';
     RatingComponent,
     HeaderCompComponent,
     VideoCardListComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    appRoutes
   ],
   providers: [CardItemService],
   bootstrap: [AppComponent]
