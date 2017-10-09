@@ -8,10 +8,7 @@ import { VideoCardComponent } from './video-card/video-card.component';
 import { RatingComponent } from './rating/rating.component';
 import { HeaderCompComponent } from './header-comp/header-comp.component';
 import { VideoCardListComponent } from './video-card-list/video-card-list.component';
-
-const lookupLists = {
-  mediums: ['Movies', 'Series']
-};
+import { CardItemService } from 'app/card-item.service';
 
 @NgModule({
   declarations: [
@@ -26,7 +23,7 @@ const lookupLists = {
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [CardItemService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
