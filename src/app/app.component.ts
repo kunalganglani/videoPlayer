@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  ratingClicked: number;
+  /* ratingClicked: number;
   itemIdRatingClicked: number;
   items: any[] = [
       {
@@ -47,5 +47,5 @@ export class AppComponent {
       this.ratingClicked = clickObj.rating;
       this.itemIdRatingClicked = clickObj.itemId;
     }
-  }
+  } */
 }
