@@ -11,6 +11,7 @@ import { VideoCardListComponent } from './video-card-list/video-card-list.compon
 import { CardItemService } from 'app/card-item.service';
 import { HomeComponent } from './home/home.component';
 import appRoutes from './app.routes';
+import { CardDetailsComponent } from './card-details/card-details.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import appRoutes from './app.routes';
     HeaderCompComponent,
     VideoCardListComponent,
     HomeComponent,
+    CardDetailsComponent,
   ],
   imports: [
     BrowserModule,
