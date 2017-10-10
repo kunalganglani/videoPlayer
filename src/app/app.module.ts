@@ -4,23 +4,15 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { VideoCardComponent } from './video-card/video-card.component';
-import { RatingComponent } from './rating/rating.component';
 import { HeaderCompComponent } from './header-comp/header-comp.component';
-import { VideoCardListComponent } from './video-card-list/video-card-list.component';
 import { CardItemService } from 'app/card-item.service';
-import { HomeComponent } from './home/home.component';
 import appRoutes from './app.routes';
 import { CardDetailsComponent } from './card-details/card-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    VideoCardComponent,
-    RatingComponent,
     HeaderCompComponent,
-    VideoCardListComponent,
-    HomeComponent,
     CardDetailsComponent,
   ],
   imports: [
